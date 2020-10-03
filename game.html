@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The siple game, created by Nabin">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="bootstraps/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstraps/bootstrap-grid.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstraps/bootstrap.css">
+    <link rel="stylesheet" href="bootstraps/bootstrap.min.css" type="text/css" media="all" />
+    <title>simple-card-game</title>
+    
+</head>
+
+<body>
+<div class="container-1">
+    <h2>Try your lock </h2>
+     <br />
+      <h3><span id="game-result">let's Play</span></h3>
+  
+   <div class="flex-container-row-1">
+    <div id="user-box">
+      <h2 class="text-success">you : <span id="user-point">0</span></h2>
+      
+      
+      
+      
+    </div>
+    <div id="jarves-box">
+      <h2 class="text-danger"><span id="jarves-point">0</span> : jarves</h2>
+      
+      
+      
+    </div>
+    
+    
+    
+    
+    
+   </div>
+    <div class="flex-container-row-2">
+    
+    <div>
+        <button class="btn-lg btn-primary mr-2" id="game-hit-btn">Hit</button>
+        <button class="btn-lg btn-warning mr-2" id="game-stand-btn">Stand</button>
+        <button class="btn-lg btn-danger mr-2" id="game-deal-btn">Deal</button>
+   </div>
+    
+    </div>
+  
+   <div class="flex-container-row-3">
+    <table border="0">
+      <legend> <small>scores</small></legend>
+      <thead>
+        <tr>
+          
+          <th class="text-success">WIN</th>
+          <th class="text-danger">LOSE</th>
+          <th class="text-warning" >DRAW</th>
+          
+        </tr>
+        
+     </thead>
+      
+     <tbody>
+        
+         <tr>
+            <td class="text-success"><span id="win-score">0</span></td>
+          
+           <td class="text-danger"><span id="lose-score">0</span> </td>
+          
+            <td class="text-warning"><span id="drew-score">0</span></td>
+         </tr>
+        
+        </tbody>
+      
+    </table>
+   </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="game.js" type="text/javascript" charset="utf-8">
+  
+</script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.container-1{
+  background-color: lightcyan;
+  width: 98%;
+  margin:  auto;
+  text-align: center;
+ /* border: 2px solid red;*/
+}
+
+.flex-container-row-1,.flex-container-row-2,.flex-container-row-3{
+  display: flex;
+  padding: 12px;
+ /* border: .3px solid black;*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*background image for game*/
+.flex-container-row-1,.flex-container-row-2{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('sorces/game-background-image.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-row-1 div{
+  padding:6px;
+  height: 360px;
+  flex:1;
+}
+.flex-container-row-1 div img{
+  width: 33%;
+  padding:5px;
+  
+}
+.flex-container-row-2 button{
+  border-radius:15px;
+}
+#user-box{
+  border-right: .8px double gray;
+}
+table,th,td{
+  padding: 5px;
+}
+
+
